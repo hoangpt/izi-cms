@@ -1,0 +1,41 @@
+// =============================================================================
+// izicms Install Guide
+// $Id: install_guide.txt 3345 2010-06-22 03:58:37Z leha $
+// =============================================================================
+
+--- izicms requires:
+* Apache modules:
+	+ mod_rewrite
+* PHP 5.2.0 or newer
+* PHP Modules:
+	+ gd
+	+ json
+	+ mbstring
+	+ simplexml
+	+ xml
+	+ xmlreader
+* Following files/folders have to be writable:
+	+ application/config/application.ini
+	+ application/config/layout.ini
+	+ application/templates	
+	+ temp
+	+ upload
+
+--- Install Guide ---
+- You can use install wizard at address:
+http://{YourDomain}/{izicmsInstalledFolder}/install.php
+or 
+http://{YourDomain}/install.php, if you put izicms in web root directory
+
+***** IMPORTANT NOTE *****
+After installing, you have to import the sample data from izicms_sample_db.sql file 
+located in the install folder
+
+--- More info ---
+Official website: 	http://www.izicms.com
+Online demo:		http://demo.izicms.com
+Documentation:		http://docs.izicms.com
+Blog: 				http://blog.izicms.com
+Forum:				http://forum.izicms.com
+Email:				core@izicms.com
+Twitter:			http://twitter.com/izicms/

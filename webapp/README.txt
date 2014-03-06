@@ -1,0 +1,1 @@
+To install izicms, see install_guide.txt in "install" folder 
